@@ -25,6 +25,8 @@ class BasicCar:
 
     def sim(self, dt, power, steer_goal):
 
+        steer_goal *= -1
+
         assert -1 <= power <= 1
         assert -1 <= steer_goal <= 1
 
