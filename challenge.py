@@ -43,13 +43,3 @@ class Challenge:
 
             plt.show()
 
-if __name__ == '__main__':
-    def test_ai_fun(pos, spd, dir, goal, cur):
-        global n
-
-        n-=0.0002
-
-        return [0.2,max(n,0)]
-
-    ch = Challenge(test_ai_fun,fieldSize=10,maxDif=1)
-    ch.run()
